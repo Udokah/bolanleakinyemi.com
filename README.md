@@ -1,2 +1,2 @@
-# bolanleakinyemi.com
-Portfolio Website of Bolanle Akinyemi
+# wwww.bolanleakinyemi.com
+Portfolio Website of Bolanle Akinyemi.
