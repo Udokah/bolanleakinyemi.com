@@ -2,12 +2,12 @@ const config = require('./src/config');
 
 module.exports = {
   siteMetadata: {
-    title: 'Bolanle Akinyemi',
+    title: 'Bolanle Akinyemi - Product Designer',
     description:
       'Bolanle Akinyemi is a product designer who helps businesses, big and small, turn their ideas into great products their customers love by crafting meaningful stories through visual design and empathic research',
     siteUrl: 'https://bolanleakinyemi.com', // No trailing slash allowed!
     image: '/og.png', // Path to your image you placed in the 'static' folder
-    twitterUsername: '@bchiang7',
+    twitterUsername: '@bolaAk_',
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
@@ -152,7 +152,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-google-analytics`,
       options: {
-        trackingId: 'UA-45666519-2',
+        trackingId: 'G-0WEQ39MB7Q',
       },
     },
   ],

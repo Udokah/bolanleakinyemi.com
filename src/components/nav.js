@@ -185,7 +185,7 @@ const Nav = ({ isHome }) => {
           <>
             {Logo}
 
-            {/* <StyledLinks>
+            <StyledLinks>
               <ol>
                 {navLinks &&
                   navLinks.map(({ url, name }, i) => (
@@ -195,7 +195,7 @@ const Nav = ({ isHome }) => {
                   ))}
               </ol>
               <div>{ResumeLink}</div>
-            </StyledLinks> */}
+            </StyledLinks>
 
             <Menu />
           </>
@@ -210,7 +210,7 @@ const Nav = ({ isHome }) => {
             </TransitionGroup>
 
             <StyledLinks>
-              {/* <ol>
+              <ol>
                 <TransitionGroup component={null}>
                   {isMounted &&
                     navLinks &&
@@ -222,8 +222,8 @@ const Nav = ({ isHome }) => {
                       </CSSTransition>
                     ))}
                 </TransitionGroup>
-              </ol> */}
-              {/* 
+              </ol>
+
               <TransitionGroup component={null}>
                 {isMounted && (
                   <CSSTransition classNames={fadeDownClass} timeout={timeout}>
@@ -232,7 +232,7 @@ const Nav = ({ isHome }) => {
                     </div>
                   </CSSTransition>
                 )}
-              </TransitionGroup> */}
+              </TransitionGroup>
             </StyledLinks>
 
             <TransitionGroup component={null}>

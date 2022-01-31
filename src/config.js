@@ -6,6 +6,10 @@ module.exports = {
       name: 'Linkedin',
       url: 'https://www.linkedin.com/in/bolanle-akinyemi-6b6b37220/',
     },
+    {
+      name: 'Instagram',
+      url: 'https://www.instagram.com/designwithbola/',
+    },
   ],
 
   navLinks: [
@@ -14,11 +18,7 @@ module.exports = {
       url: '/#about',
     },
     {
-      name: 'Experience',
-      url: '/#jobs',
-    },
-    {
-      name: 'Work',
+      name: 'Case Studies',
       url: '/#projects',
     },
     {
