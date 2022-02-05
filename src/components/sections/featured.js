@@ -353,7 +353,7 @@ const Featured = () => {
 
       <StyledProjectsGrid>
         {featuredProjects &&
-          featuredProjects.map(({ node }, i) => {
+          [featuredProjects[0]].map(({ node }, i) => {
             const { frontmatter, html } = node;
             const { external, title, tech, github, cover, cta } = frontmatter;
             const image = getImage(cover);
@@ -365,7 +365,7 @@ const Featured = () => {
                     <p className="project-overline">Role: UX Designer | UX Researcher</p>
 
                     <h3 className="project-title">
-                      <a href={external}>{title}</a>
+                      <a href="/rebellious_fashion.pdf">{title}</a>
                     </h3>
 
                     <div
@@ -383,7 +383,7 @@ const Featured = () => {
 
                     <div className="project-links">
                       {cta && (
-                        <a href={cta} aria-label="Course Link" className="cta">
+                        <a href="/rebellious_fashion.pdf" aria-label="Course Link" className="cta">
                           View Project
                         </a>
                       )}
@@ -392,7 +392,7 @@ const Featured = () => {
                 </div>
 
                 <div className="project-image">
-                  <a href={external ? external : github ? github : '#'}>
+                  <a href="/rebellious_fashion.pdf">
                     <GatsbyImage image={image} alt={title} className="img" />
                   </a>
                 </div>
